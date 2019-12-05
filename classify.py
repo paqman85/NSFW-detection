@@ -1,7 +1,8 @@
 import os
 import sys
 
-import tensorflow as tf
+# import tensorflow as tf # Use if you have tensorflow < 2.0 installed
+import tensorflow.compat.v1 as tf # Use if you have tensorflow >=2.0 installed
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
